@@ -1,0 +1,9 @@
+# title Someone text
+# description Someone titles
+# ---<source code delimeter>---
+
+
+def someone(file_name):
+    file = open(file_name, 'r')
+    content = file.read()
+    return content
